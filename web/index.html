@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/adminlte.min.css"/>
+    <link rel="stylesheet" href="css/skins/_all-skins.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/fontawesome.min.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/tinymce/tinymce.min.js"></script>
+    <script defer="defer" src="js/main.js"></script>
+    <title>AGRI</title>
+  </head>
+  <div class="wrapper">
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light navi-header">
+      <ul class="navbar-nav ml-auto font-16">
+        <li class="nav-item d-none d-sm-inline-block"><a class="nav-link" href="#">北海道事業本部</a></li>
+        <li class="nav-item d-none d-sm-inline-block"><a class="nav-link" href="#">十勝支店</a></li>
+        <li class="nav-item d-none d-sm-inline-block"><a class="nav-link" href="#">営業担当</a></li>
+        <li class="nav-item d-none d-sm-inline-block"><a class="nav-link" href="#">住友進一</a></li>
+        <li class="nav-item"><a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"><i class="fas fa-sign-out-alt fa-lg"></i></a></li>
+      </ul>
+    </nav>
+    <aside class="main-sidebar elevation-4 login bg-light-gray"><a class="brand-link text-center bg-white" href="#"><img class="login__img" src="img/logo.png" alt="logo"/></a>
+      <section class="sidebar">
+        <div class="bg-green-main">
+          <h3 class="sidebar__title font-16">売上伝票管理</h3>
+        </div>
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column font-16 sidebar-menu">
+            <li class="nav-item"> <a class="nav-link sidebar__link" href="#">
+                <p>承認フロー管理<i class="right fas fa-angle-right"></i></p></a></li>
+            <li class="nav-item nav-item--active"><a class="nav-link sidebar__link" href="#">
+                <p>受注処理管理<i class="right fas fa-angle-right"></i></p></a></li>
+            <li class="nav-item"><a class="nav-link sidebar__link" href="#">
+                <p>その他<i class="right fas fa-angle-right"></i></p></a></li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
+    <main>
+      <div class="content-wrapper">
+        <section class="content-header">
+          <div class="container-fluid main-title">
+            <h1 class="col-12 font-24 text-gray">売上伝票管理　–　伝票ID 54387（承認状況：未申請）　</h1>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Container</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="card card-default">
+              <div class="card-header bg-green-main">
+                <h3 class="card-title main-container__title">売上伝票情報</h3>
+                <div class="card-tools">
+                  <button class="btn btn-tool main-container__card-tools"><span class="main-container__card-tools-text">編集</span><i class="fas fa-edit"></i></button>
+                </div>
+              </div>
+              <div class="card-body">
+                <form action="">
+                  <div class="row col-12">
+                    <div class="col-6 cstm-form">
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>伝票ID</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>54387</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>発行日</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>2021/12/23</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>発行支店・営業所名</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><a class="custom-link cstm-tooltip" href="#">大牟田営業所
+                            <div class="cstm-tooltip__wrapper cstm-tooltip__wrapper--lg">
+                              <div class="cstm-tooltip__text"><span class="font-12 bold text-green">大牟田支店</span>
+                                <div class="cstm-tooltip__content"><span class="font-12 text-gray medium">Address</span><span class="font-12 text-default medium">： 熊本県大牟田市1-1-1  2-12-3</span></div>
+                                <div class="cstm-tooltip__content"><span class="font-12 text-gray medium">TEL</span><span class="font-12 text-default medium">： 00-0000-0000</span></div>
+                                <div class="cstm-tooltip__content"><span class="font-12 text-gray medium">FAX</span><span class="font-12 text-default medium">： 00-0000-0000</span></div>
+                              </div>
+                            </div></a></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>担当者名</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>住商太郎</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>担当者名</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>住商太郎</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>お客様氏名</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span></span><a class="custom-link cstm-tooltip" href="#">山田太郎
+                            <div class="cstm-tooltip__wrapper"> 
+                              <div class="cstm-tooltip__text"><img src="img/customer-signature.png" alt="signature"/></div>
+                            </div></a></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>サイン有無</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>有</span><a class="custom-link custom-link--with-space" href="#">表示</a></div>
+                      </div>
+                    </div>
+                    <div class="col-6 cstm-form">                                     
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>担当者名</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>住商太郎</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>お支払い方法</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>農協経由</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>受注形態</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>営業訪問</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>経由先</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>#######</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label">
+                          <label>摘要欄</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label"><span>テキストテキスト </span></div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Cards</h2>
+        <section class="content">
+          <div class="container-fluid main-container cstm-accordion">
+            <div class="card card-default">
+              <div class="card-header bg-gray">
+                <h3 class="card-title main-container__title">注文商品一覧</h3>
+              </div>
+            </div>
+            <div class="card card-default collapsed-card">
+              <div class="card-header bg-white">
+                <h3 class="card-title main-container__title main-container__title--cards">スミトモZn （コード：00001）
+                  <button class="btn main-container__card-tools main-container__cards-title-tools"><span class="main-container__card-tools-text">編集</span><i class="fas fa-edit"></i></button>
+                </h3>
+                <div class="card-tools">
+                  <button class="btn btn-tool main-container__card-tools" data-card-widget="collapse"><span>編集</span><i class="fas fa-chevron-down"></i></button>
+                </div>
+              </div>
+              <div class="cstm-accordion__default">
+                <div class="row col-12">
+                  <div class="tags"> <span class="text-green font-14">値引率：5%</span></div>
+                  <div class="tags"> <span class="text-green font-14">最低売価以下</span></div>
+                  <div class="tags"> <span class="text-green font-14">試肥指定有</span></div>
+                </div>
+                <div class="row col-12">
+                  <div class="col-6 cstm-form">
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>規格・荷姿</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">###</span></div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>納入年月日</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">2020/12/01</span></div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>金額（税別）</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">####円</span></div>
+                    </div>
+                  </div>
+                  <div class="col-6 cstm-form">
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>規格数量</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">####円</span></div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>単価</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">1,000円</span></div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>備考②</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray"> </span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body hide">
+                <div class="row col-12">
+                  <div class="col-6 cstm-form">
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>備考</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray"> </span></div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>お支払い回数</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">分割</span></div>
+                    </div>
+                  </div>
+                  <div class="col-6 cstm-form">
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                        <label>お届け方法</label>
+                      </div>
+                      <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-gray">倉庫</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Table</h2>
+        <section class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-body table-responsive p-0">
+                    <table class="table table-hover table-bordered scrollable-table cstm-table">
+                      <thead class="bg-gray font-14">
+                        <tr>
+                          <th class="cstm-table__sortable-desc">伝票ID</th>
+                          <th class="cstm-table__sortable-desc">発行日</th>
+                          <th class="cstm-table__sortable-desc">氏名</th>
+                          <th class="cstm-table__sortable-desc">担当者名</th>
+                          <th class="cstm-table__sortable-desc">サイン有無</th>
+                          <th class="cstm-table__sortable-asc">納入年月日</th>
+                          <th>承認状況</th>
+                        </tr>
+                      </thead>
+                      <tbody class="font-12">
+                        <tr>
+                          <td>69297</td>
+                          <td>2018/11/05</td>
+                          <td>山田太郎</td>
+                          <td>住商太郎</td>
+                          <td>無</td>
+                          <td> <span>2020/12/01</span><br/>2020/12/23s<br/>2020/12/23</td>
+                          <td>チーム長承認待ち</td>
+                        </tr>
+                        <tr>
+                          <td>69297</td>
+                          <td>2018/11/05</td>
+                          <td>山田太郎</td>
+                          <td>住商太郎</td>
+                          <td>無</td>
+                          <td> <span>2020/12/01</span><br/>2020/12/23s<br/>2020/12/23</td>
+                          <td>チーム長承認待ち</td>
+                        </tr>
+                        <tr>
+                          <td>69297</td>
+                          <td>2018/11/05</td>
+                          <td>山田太郎</td>
+                          <td>住商太郎</td>
+                          <td>無</td>
+                          <td> <span>2020/12/01</span><br/>2020/12/23s<br/>2020/12/23</td>
+                          <td>チーム長承認待ち</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Pagination</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <section class="content cstm-pagination">
+              <ul class="cstm-pagination__list">
+                <li class="cstm-pagination__item"><span><i class="fas fa-chevron-left"> </i></span></li>
+                <li class="cstm-pagination__item cstm-pagination__item--active"><span>1</span></li>
+                <li class="cstm-pagination__item"><span>2</span></li>
+                <li class="cstm-pagination__item"><span>3</span></li>
+                <li class="cstm-pagination__item"><span>4</span></li>
+                <li class="cstm-pagination__item"><span>5</span></li>
+                <li class="cstm-pagination__item"><span>6</span></li>
+                <li class="cstm-pagination__item"><span>7</span></li>
+                <li class="cstm-pagination__item"><span>8</span></li>
+                <li class="cstm-pagination__item"><span><i class="fas fa-chevron-right"></i></span></li>
+              </ul>
+            </section>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Counter</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row counter col-12">
+              <div class="counter-box__item bg-gray">
+                <div class="counter-box__content"><span class="font-16">未処理</span><span class="counter-box__number font-40">50</span></div>
+              </div>
+              <div class="counter-box__item bg-lightest-gray">
+                <div class="counter-box__content"><span class="font-16">稟議中</span><span class="counter-box__number font-40">50</span></div>
+              </div>
+              <div class="counter-box__item bg-green-main">
+                <div class="counter-box__content"><span class="font-16">決裁完了</span><span class="counter-box__number font-40">50</span></div>
+              </div>
+              <div class="counter-box__item bg-light-green">
+                <div class="counter-box__content"><span class="font-16">事務員送信済み</span><span class="counter-box__number font-40">50</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Tabs</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row counter-box counter-box--tabs">
+              <div class="col-md-4">
+                <div class="counter-box__item white">
+                  <div class="counter-box__content">
+                    <icon class="fas fa-user-circle"></icon><span class="counter-box__text">アカウント設定</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="counter-box__item white">
+                  <div class="counter-box__content">
+                    <icon class="fas fa-cogs"></icon><span class="counter-box__text">JA芽室商品コード管理</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="counter-box__item white">
+                  <div class="counter-box__content">
+                    <icon class="fas fa-clipboard-list"></icon><span class="counter-box__text">操作ログ情報</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Tooltips (buttons, text)</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row">
+              <div class="col-12 mb-3"><span class="font-14 cstm-tooltip">Text Tooltip
+                  <div class="cstm-tooltip__wrapper">my tool tip content goes here </div></span></div>
+              <div class="col-12 mb-3">
+                <button class="btn cstm-button cstm-button__green cstm-tooltip"><span>送付用帳票発行  </span><i class="fas fa-caret-down"></i>
+                  <div class="cstm-tooltip__wrapper"> 
+                    <div class="cstm-tooltip__text"><a class="link-text" href="#">PDFダウンロード</a><a class="link-text" href="#">印刷</a><a class="link-text" href="#">メール送信</a></div>
+                  </div>
+                </button>
+              </div>
+              <div class="col-12 mb-3">
+                <button class="btn cstm-button cstm-button__gray">確定処理</button>
+                <button class="btn cstm-button cstm-button__gray">諾否処理</button>
+                <button class="btn cstm-button cstm-button__green cstm-tooltip"><span>申請処理  </span>
+                  <div class="cstm-tooltip__wrapper"> 
+                    <div class="cstm-tooltip__text"><span class="text-gray">承認申請</span><span class="text-default">申請取消</span></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Buttons</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <button class="btn cstm-button">検索</button>
+                <button class="btn cstm-button cstm-button--cancel">クリア</button>
+                <button class="btn cstm-button cstm-button--cancel disabled">disabled</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 mt-5">
+                <button class="btn cstm-button cstm-button--lg">検索</button>
+                <button class="btn cstm-button cstm-button--lg cstm-button--cancel">クリア</button>
+                <button class="btn cstm-button cstm-button--lg cstm-button--cancel disabled">disabled</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Forms</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="card-body">
+              <form action="">
+                <div class="row col-12">
+                  <div class="col-6 cstm-form">
+                    <div class="form-group mt-5 cstm-form__radio-container">
+                      <div class="cstm-form__radio-group">
+                        <input class="cstm-form__radio-input" id="radio-2" type="radio" name="radio-1"/>
+                        <label class="cstm-form__radio-label" for="radio-2">承認</label>
+                      </div>
+                      <div class="cstm-form__radio-group">
+                        <input class="cstm-form__radio-input" id="radio-3" type="radio" name="radio-1"/>
+                        <label class="cstm-form__radio-label" for="radio-3">承認</label>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>ラウンドID</label>
+                      </div>
+                      <div class="col-8">
+                        <input class="form-control" type="text"/>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>ラウンドID</label>
+                      </div>
+                      <div class="col-8">
+                        <input class="form-control" type="text"/><span class="error-msg">ERROR!</span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>ラウンドID</label>
+                      </div>
+                      <div class="col-8">
+                        <input class="form-control" type="text" disabled="disabled"/>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>希望ラウンドエリア</label>
+                      </div>
+                      <div class="col-8">
+                        <select class="form-control">
+                          <option selected="selected" disabled="disabled">Item1</option>
+                          <option>Item2</option>
+                          <option>Item3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>希望ラウンドエリア</label>
+                      </div>
+                      <div class="col-8">
+                        <select class="form-control" disabled="disabled">
+                          <option selected="selected" disabled="disabled">Item1</option>
+                          <option>Item2</option>
+                          <option>Item3</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group cstm-form__textarea row">
+                      <div class="col-4 cstm-form__row-label">
+                        <label>コメント本文</label>
+                      </div>
+                      <div class="col-8">
+                        <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row col-12 mt-5">
+                  <div class="col-6 cstm-form cstm-form--lg">
+                    <div class="form-group row">
+                      <label class="font-16 text-gray">管理者から発行されているプロダクトコードを入力してください。</label>
+                      <div class="cstm-form__input-holder"><span class="error-msg">ERROR!</span>
+                        <input class="form-control" type="text"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">File Upload</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row">
+              <div class="col-12 mb-3">
+                <form action=""> 
+                  <div class="file-uploader"> <span class="font-18 file-uploader__span">ExcelをPDF化したものを添付する</span>
+                    <input class="file-uploader__input" id="input-file-upload" type="file" ref="fileInput" name="file" onchange="getFileName()"/>
+                  </div><span class="file-uploader__filename mt-3" id="filename"></span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Typography</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <section class="content">
+              <div class="container-fluid main-container mb-5">
+                <p class="font-16 medium text-default">コメント、または差し戻し理由を記入してください。</p>
+                <p class="font-14 medium text-gray">（差し戻し時は必須入力となります。）</p>
+                <div class="text-common-wrapper">
+                  <p class="font-14 medium text-green">
+                    新パスワードは現在のパスワードと同一文字列にはできません。<br/>また、パスワードは6文字以上で、数字・英大文字・英小文字・記号のうち3種類以上使用してください。</p>
+                </div>
+              </div>
+              <div class="container-fluid main-container">
+                <div class="card-body text-common-wrapper">
+                  <div class="row col-12">
+                    <div class="col-6 cstm-form">
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                          <label>送信先メールアドレス　</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-default">aaaa123@test.com</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-4 cstm-form__row-label cstm-form__row-label--plain">
+                          <label>送信元メールアドレス</label>
+                        </div>
+                        <div class="col-8 cstm-form__output-label cstm-form__output-label--plain"><span class="text-default">noreply@sample.co.jp</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Flash Message</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row col-md-12">
+              <div class="alert alert-danger alert-dismissible col-md-12">
+                <button class="close" type="button" data-dismiss="alert" aria-hidden="true">x</button><span class="font-12 text-red">Error message here. </span>
+              </div>
+            </div>
+            <div class="row col-md-12">
+              <div class="alert alert-danger alert-dismissible col-md-12 bg-light-green">
+                <button class="close" type="button" data-dismiss="alert" aria-hidden="true">x</button><span class="font-12 text-white">Error message here. </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Modal</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <button class="btn cstm-button" data-toggle="modal" data-target="#show-modal">Modal</button>
+          </div>
+        </section>
+        <div class="modal cstm-modal fade" id="show-modal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header cstm-modal__header bg-green-main">
+                <h4 class="modal-title text-white font-18 bold">メール送信</h4>
+                <button class="close" data-dismiss="modal"><span>×</span></button>
+              </div>
+              <div class="modal-body cstm-modal__body">
+                <p class="font-16 medium text-default">コメント、または差し戻し理由を記入してください。</p>
+                <div class="card-body text-common-wrapper">
+                  <div class="row">
+                    <div class="col-6 cstm-form">
+                      <div class="form-group row">
+                        <div class="col-7 cstm-form__row-label cstm-form__row-label--plain">
+                          <label>送信先メールアドレス　</label>
+                        </div>
+                        <div class="col-5 cstm-form__output-label cstm-form__output-label--plain"><span class="text-default">aaaa123@test.com</span></div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col-7 cstm-form__row-label cstm-form__row-label--plain">
+                          <label>送信元メールアドレス</label>
+                        </div>
+                        <div class="col-5 cstm-form__output-label cstm-form__output-label--plain"><span class="text-default">noreply@sample.co.jp</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer cstm-modal__footer">
+                <button class="btn cstm-button">送信する</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="mt-5 mb-2 text-red col-12">Link Download container</h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row">
+              <div class="col-6">
+                <div class="card card-default">
+                  <div class="card-header bg-gray">
+                    <h3 class="card-title main-container__title">添付申請書一覧</h3>
+                  </div>
+                  <div class="card-body">
+                    <ul class="cstm-list">
+                      <li class="cstm-list__item"> <a class="link-text font-14" href="#">値引き申請書.pdf</a></li>
+                      <li class="cstm-list__item"> <a class="link-text font-14" href="#">値引き申請書.pdf</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2 class="mt-5 mb-2 text-red col-12">Progress Arrow
+          <p class="text-default">use classnames: .cstm-progress-bar__arrow-circle (For step1 -default)</p>
+          <p class="text-default">.cstm-progress-bar__arrow-circle .cstm-progress-bar__arrow-circle--step-3 ( For step2 - step4)</p>
+        </h2>
+        <section class="content">
+          <div class="container-fluid main-container">
+            <div class="row">
+              <div class="col-5">
+                <div class="card card-default">
+                  <div class="card-header bg-gray">
+                    <h3 class="card-title main-container__title">承認経路</h3>
+                  </div>
+                  <div class="card-body cstm-progress-bar">
+                    <div class="cstm-progress-bar__container">
+                      <div class="cstm-progress-bar__arrow-holder"><img class="cstm-progress-bar__arrow-circle cstm-progress-bar__arrow-circle--step-3" src="img/progress-circle.svg"/></div>
+                      <div class="cstm-progress-bar__content">
+                        <ul class="cstm-progress-bar__ist">
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><span class="custom-link link-text font-14 medium cstm-progress-bar__text cstm-tooltip">値引き申請書.pdf
+                              <div class="cstm-tooltip__wrapper cstm-tooltip__wrapper--lg">
+                                <div class="cstm-tooltip__text">
+                                  <ul class="cstm-list">
+                                    <li class="cstm-list__item"><span class="font-12 text-gray medium">2021/2/17 12:23</span><span class="font-12 text-default medium">： 承認</span></li>
+                                    <li class="cstm-list__item"><span class="font-12 text-gray medium">2021/2/17 12:23</span><span class="font-12 text-default medium">： 承認</span></li>
+                                  </ul>
+                                </div>
+                              </div></span>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box cstm-progress-bar__box--gray"><span class="font-14">営業担当</span></div><span class="cstm-progress-bar__text text-gray font-14 medium">承認不要</span>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><a class="custom-link link-text font-14 medium cstm-progress-bar__text" href="#">値引き申請書.pdf</a>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><a class="custom-link link-text font-14 medium cstm-progress-bar__text" href="#">値引き申請書.pdf</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="card card-default">
+                  <div class="card-header bg-gray">
+                    <h3 class="card-title main-container__title">承認経路</h3>
+                  </div>
+                  <div class="card-body cstm-progress-bar">
+                    <div class="cstm-progress-bar__container">
+                      <div class="cstm-progress-bar__arrow-holder"><img class="cstm-progress-bar__arrow-circle" src="img/progress-circle.svg"/></div>
+                      <div class="cstm-progress-bar__content">
+                        <ul class="cstm-progress-bar__ist">
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><span class="custom-link link-text font-14 medium cstm-progress-bar__text cstm-tooltip">値引き申請書.pdf
+                              <div class="cstm-tooltip__wrapper cstm-tooltip__wrapper--lg">
+                                <div class="cstm-tooltip__text">
+                                  <ul class="cstm-list">
+                                    <li class="cstm-list__item"><span class="font-12 text-gray medium">2021/2/17 12:23</span><span class="font-12 text-default medium">： 承認</span></li>
+                                    <li class="cstm-list__item"><span class="font-12 text-gray medium">2021/2/17 12:23</span><span class="font-12 text-default medium">： 承認</span></li>
+                                  </ul>
+                                </div>
+                              </div></span>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box cstm-progress-bar__box--gray"><span class="font-14">営業担当</span></div><span class="cstm-progress-bar__text text-gray font-14 medium">承認不要</span>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><a class="custom-link link-text font-14 medium cstm-progress-bar__text" href="#">値引き申請書.pdf</a>
+                          </li>
+                          <li class="cstm-progress-bar__item">
+                            <div class="cstm-progress-bar__box"><span class="font-14">営業担当</span></div><a class="custom-link link-text font-14 medium cstm-progress-bar__text" href="#">値引き申請書.pdf</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer"><strong>Copyright @ 2021</strong><span>All rights reserved.</span></footer>
+  </div>
+</html>
